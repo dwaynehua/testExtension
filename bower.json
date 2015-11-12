@@ -1,0 +1,14 @@
+{
+  "name": "testextension",
+  "private": true,
+  "version": "0.0.0",
+  "devDependencies": {
+    "chai": "~3.4.0",
+    "mocha": "~2.3.3",
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

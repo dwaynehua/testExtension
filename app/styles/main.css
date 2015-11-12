@@ -1,0 +1,29 @@
+body {
+  padding: 20px;
+}
+
+.extension-inlay {
+  z-index: 999999999999999;
+  position: fixed;
+  border: none;
+  overflow: auto;
+  height: 200px;
+}
+
+.main-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+}
+
+.controls {
+  position: fixed;
+  z-index: 99999;
+}
+
+.vid-list {
+  width: 800px;
+  top: 40px;
+  position: relative;
+}

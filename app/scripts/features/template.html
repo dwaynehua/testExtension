@@ -1,0 +1,15 @@
+<div class="controls btn-group" role="group">
+  <button ng-click="view.next()" class="btn btn-default">next</button>
+  <button ng-click="view.add()" class="btn btn-default">add</button>
+  <button ng-click="view.toggle()" class="btn btn-default" ng-hide="view.hidden">hide</button>
+  <button ng-click="view.toggle()" class="btn btn-default" ng-show="view.hidden">show</button>
+  <button ng-click="view.prev()" class="btn btn-default">prev</button>
+</div>
+<div class="vid-list" ng-hide="view.hidden">
+  <ul>
+    <li ng-repeat="vid in view.vids track by vid.id">
+      <img ng-src="{{vid.thumb}}"/>
+      <span>{{vid.title}}</span>
+    </li>
+  </ul>
+</div>
